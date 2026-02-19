@@ -1,0 +1,36 @@
+<div class="compra-container">
+  <div class="tarjeta-reserva">
+    
+    <div class="imagen">
+      <img [src]="'fotos/descubrir/' + destinoId + '.png'" [alt]="destinoId">
+    </div>
+
+    <div class="info-reserva">
+      <div class="cabecera">
+        <h3>Tu viaje a {{ destinoId }}</h3  >
+      </div>
+
+      <ul class="beneficios">
+        <li>Vuelos ida y vuelta incluidos</li>
+        <li>Hotel 4 estrellas en el centro</li>
+        <li>Guía turístico especializado</li>
+        <li>Seguro de viaje integral</li>
+      </ul>
+
+      <div class="precio-seccion">
+        <p class="etiqueta">Precio por persona</p>
+        <h2 class="precio">450€</h2>
+      </div>
+      <br>
+
+      <div class="acciones">
+        <button> Añadir al carrito</button>
+        <br>
+        <a class="btn-volver" routerLink="/descubrir">
+          Ver otros destinos
+        </a>
+      </div>
+    </div>
+
+  </div>
+</div>

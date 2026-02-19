@@ -1,0 +1,67 @@
+.login {
+    display: flex;
+    height: 100vh;
+    width: 100%;
+    
+}
+
+.form-side {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+}
+
+.auth-box {
+    width: 100%;
+    max-width: 400px;
+    padding: 20px;
+    text-align: center;
+}
+
+.logo {
+    margin-bottom: 30px;
+}
+
+.logo-img {
+    height: 50px; 
+    width: auto;
+}
+
+.login-input {
+    width: 100%;
+    padding: 12px 15px;
+    margin-bottom: 15px;
+    border: 1px solid #dbdbdb;
+    border-radius: 5px;
+    background-color: #fafafa;
+    font-size: 14px;
+    outline: none;
+}
+
+
+.crear {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    background-color: #0095ff; 
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 14px;
+
+}
+
+
+.registro {
+    color: #0095ff;
+    cursor: pointer;
+}
+.cuenta{
+    display: flex;
+    justify-content: center;
+    gap: 2;
+}
